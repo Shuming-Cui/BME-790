@@ -21,7 +21,6 @@ if (abs(T1 - T2) < 0.2*T1){
 void setup() {
   // put your setup code here, to run once:
  pinMode(doorPin,INPUT_PULLUP);
-// pinMode(ledPin,OUTPUT);
  pinMode(HeatPin,OUTPUT);
  pinMode(AlarmPin,OUTPUT);
  Serial.begin(9600);
